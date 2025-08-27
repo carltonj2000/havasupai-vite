@@ -62,8 +62,8 @@ function App() {
 							</td>
 							<td className="border border-blue-400 px-2 py-1">
 								<ul>
-									<li>Beaver Falls</li>
-									<li>To Colorado River - 18 miles</li>
+									<li>Beaver Falls To Colorado River</li>
+									<li>18 miles</li>
 								</ul>
 							</td>
 						</tr>
