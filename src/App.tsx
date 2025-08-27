@@ -2,7 +2,10 @@ function App() {
 	return (
 		<>
 			<div className="bg-indigo-300 opacity-90 px-1 py-3 flex flex-col items-center">
-				<h1 className="text-2xl font-semibold">Havasupai Trip</h1>
+				<div className="flex gap-3">
+					<h1 className="text-2xl font-semibold">Havasupai Trip</h1>
+					<img src="/waterfall.svg" width="24" />
+				</div>
 				<p>
 					August 29<sup>th</sup> - September 2<sup>nd</sup>, 2025
 				</p>
@@ -46,9 +49,10 @@ function App() {
 							</td>
 							<td className="border border-blue-400 px-2 py-1">
 								<ul>
-									<li>2 AM Drive From Caverns Campground</li>
-									<li>4 AM hike down to Campground - 10 miles</li>
-									<li>Mooney Fall &amp; Havasu Falls - 12 miles</li>
+									<li>2 AM Drive From Caverns</li>
+									<li>4 AM hike down to Campground</li>
+									<li>Mooney &amp; Havasu Falls</li>
+									<li>12 miles</li>
 								</ul>
 							</td>
 						</tr>
@@ -71,7 +75,7 @@ function App() {
 								<ul>
 									<li>Explore Caves and Mines</li>
 									<li>Upper &amp; Lower Navajo Falls</li>
-									<li>50 foot falls and Hidden &amp; Secret Falls</li>
+									<li>50 foot falls &amp; Hidden &amp; Secret Falls</li>
 									<li>6-8 Miles</li>
 								</ul>
 							</td>
@@ -103,18 +107,22 @@ function App() {
 									<li>First aid</li>
 									<li>Soap</li>
 									<li>Lights</li>
-									<li>Sun Screen</li>
+									<li>Face Sun Screen</li>
+									<li>Body Sun Screen</li>
 									<li>Lip Balm</li>
 									<li>Nylon Cord</li>
 									<li>Garbage Bag</li>
-									<li>External Batter Packs</li>
+									<li>External Battery</li>
 									<li>Towel</li>
+									<li>Floats</li>
+									<li>Tripod</li>
+									<li>Hat</li>
 								</ul>
 							</td>
 							<td className="border border-blue-400 px-2 py-1">
 								<ul>
 									<li>Water Filter</li>
-									<li>Hydration System</li>
+									<li>Water Pack</li>
 									<li>Snacks</li>
 									<li>Electrolytes</li>
 									<li>Oat Meal x12</li>
@@ -122,12 +130,12 @@ function App() {
 									<li>Small Shovel</li>
 									<li>Stove And Fuel</li>
 									<li>Utensils</li>
-									<li>Insect Repellent</li>
 									<li>Sun Hat</li>
 									<li>Soap</li>
 									<li>Moisturizer</li>
 									<li>Floss</li>
-									<li>Tooth Brush And Paste</li>
+									<li>Tooth Brush</li>
+									<li>Tooth Paste</li>
 								</ul>
 							</td>
 							<td className="border border-blue-400 px-2 py-1">
@@ -140,11 +148,13 @@ function App() {
 									<li>Pillow</li>
 									<li>Rain Jacket</li>
 									<li>Water Shoes</li>
-									<li>2-4 pairs underwear</li>
-									<li>2-4 top</li>
-									<li>1 long pant</li>
-									<li>2 shorts</li>
-									<li>4 pair shocks</li>
+									<li>underwear</li>
+									<li>tops</li>
+									<li>long pant</li>
+									<li>shorts</li>
+									<li>shocks</li>
+									<li>Insect Repellent</li>
+									<li>Mirror</li>
 								</ul>
 							</td>
 						</tr>
