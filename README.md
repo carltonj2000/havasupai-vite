@@ -1,4 +1,4 @@
-# Ouray And Telluride Planing Doc
+# Havasupai Planing Doc
 
 ## Creation History
 

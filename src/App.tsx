@@ -47,7 +47,7 @@ function App() {
 							<td className="border border-blue-400 px-2 py-1">
 								<ul>
 									<li>2 AM Drive From Caverns Campground</li>
-									<li>4 AM hike down to Havasupai Campground - 10 miles</li>
+									<li>4 AM hike down to Campground - 10 miles</li>
 									<li>Mooney Fall &amp; Havasu Falls - 12 miles</li>
 								</ul>
 							</td>
@@ -96,26 +96,71 @@ function App() {
 						<tr>
 							<td className="border border-blue-400 px-2 py-1">
 								<ul>
-									<li>Large Pack</li>
-									<li>Small Pack</li>
-									<li>Drinking Water</li>
-									<li>Snacks</li>
-									<li>Rain Jacket</li>
-									<li>Water Shoes</li>
 									<li>Dry bags/keg</li>
-									<li>Swimming Suit</li>
 									<li>Puffy Jacket</li>
+									<li>Swimming Suit</li>
+									<li>Toiletries</li>
+									<li>First aid</li>
+									<li>Soap</li>
+									<li>Lights</li>
+									<li>Sun Screen</li>
+									<li>Lip Balm</li>
+									<li>Nylon Cord</li>
+									<li>Garbage Bag</li>
+									<li>External Batter Packs</li>
+									<li>Towel</li>
 								</ul>
 							</td>
 							<td className="border border-blue-400 px-2 py-1">
 								<ul>
-									<li>Rain Jacket</li>
+									<li>Water Filter</li>
+									<li>Hydration System</li>
 									<li>Snacks</li>
 									<li>Electrolytes</li>
-									<li>Toiletries</li>
-									<li>First aid</li>
-									<li>Lights</li>
+									<li>Oat Meal x12</li>
+									<li>Power Bars</li>
+									<li>Small Shovel</li>
+									<li>Stove And Fuel</li>
 									<li>Utensils</li>
+									<li>Insect Repellent</li>
+									<li>Sun Hat</li>
+									<li>Soap</li>
+									<li>Moisturizer</li>
+									<li>Floss</li>
+									<li>Tooth Brush And Paste</li>
+								</ul>
+							</td>
+							<td className="border border-blue-400 px-2 py-1">
+								<ul>
+									<li>Large Pack</li>
+									<li>Small Pack</li>
+									<li>Sleeping Bag</li>
+									<li>Tent</li>
+									<li>Mattress</li>
+									<li>Pillow</li>
+									<li>Rain Jacket</li>
+									<li>Water Shoes</li>
+									<li>2-4 pairs underwear</li>
+									<li>2-4 top</li>
+									<li>1 long pant</li>
+									<li>2 shorts</li>
+									<li>4 pair shocks</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h2 className="font-semibold mt-3 mb-2 text-xl">Etc</h2>
+				<table className="pt-2 border-collapse border border-blue-800">
+					<tbody>
+						<tr>
+							<td className="border border-blue-400 px-2 py-1">
+								<ul>
+									<li>
+										<a href="/trailmap.webp" className="underline text-slate-800">
+											Map
+										</a>
+									</li>
 								</ul>
 							</td>
 						</tr>
