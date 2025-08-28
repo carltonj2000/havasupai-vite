@@ -35,8 +35,8 @@ function App() {
 										</a>
 									</li>
 									<li>
-										<a href="https://gccaverns.com/rv-park-campground" className="underline text-slate-800">
-											Book Room Here
+										<a href="GrandCanyonCavernsInn.pdf" className="underline text-slate-800">
+											Reservation Confirmation
 										</a>
 									</li>
 									<li>Wifi - GCC_MOTEL, AGCCMotel4</li>

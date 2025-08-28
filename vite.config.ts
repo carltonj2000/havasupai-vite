@@ -15,6 +15,7 @@ export default defineConfig({
         "apple-touch-icon.png",
         "mask-icon.svg",
         "trailmap.webp",
+        "GrandCanyonCavernsInn.pdf",
       ],
       manifest: {
         name: "Havasupai",
