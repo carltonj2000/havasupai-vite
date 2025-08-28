@@ -1,3 +1,8 @@
+import { items } from "./equipment";
+
+const COLUMNS = 3;
+const itemsPerColumn = Math.ceil(items.length / COLUMNS);
+
 function App() {
 	return (
 		<>
@@ -98,65 +103,16 @@ function App() {
 				<table className="pt-2 border-collapse border border-blue-800">
 					<tbody>
 						<tr>
-							<td className="border border-blue-400 px-2 py-1">
-								<ul>
-									<li>Dry bags/keg</li>
-									<li>Puffy Jacket</li>
-									<li>Swimming Suit</li>
-									<li>Toiletries</li>
-									<li>First aid</li>
-									<li>Soap</li>
-									<li>Lights</li>
-									<li>Face Sun Screen</li>
-									<li>Body Sun Screen</li>
-									<li>Lip Balm</li>
-									<li>Nylon Cord</li>
-									<li>Garbage Bag</li>
-									<li>External Battery</li>
-									<li>Towel</li>
-									<li>Floats</li>
-									<li>Tripod</li>
-									<li>Hat</li>
-								</ul>
-							</td>
-							<td className="border border-blue-400 px-2 py-1">
-								<ul>
-									<li>Water Filter</li>
-									<li>Water Pack</li>
-									<li>Snacks</li>
-									<li>Electrolytes</li>
-									<li>Oat Meal x12</li>
-									<li>Power Bars</li>
-									<li>Small Shovel</li>
-									<li>Stove And Fuel</li>
-									<li>Utensils</li>
-									<li>Sun Hat</li>
-									<li>Soap</li>
-									<li>Moisturizer</li>
-									<li>Floss</li>
-									<li>Tooth Brush</li>
-									<li>Tooth Paste</li>
-								</ul>
-							</td>
-							<td className="border border-blue-400 px-2 py-1">
-								<ul>
-									<li>Large Pack</li>
-									<li>Small Pack</li>
-									<li>Sleeping Bag</li>
-									<li>Tent</li>
-									<li>Mattress</li>
-									<li>Pillow</li>
-									<li>Rain Jacket</li>
-									<li>Water Shoes</li>
-									<li>underwear</li>
-									<li>tops</li>
-									<li>long pant</li>
-									<li>shorts</li>
-									<li>shocks</li>
-									<li>Insect Repellent</li>
-									<li>Mirror</li>
-								</ul>
-							</td>
+							{
+								Array(COLUMNS)
+									.fill(0)
+									.map((_, col) => <td key={col} className="border border-blue-400 px-2 py-1 align-top">
+										<ul>
+											{items.slice(col * itemsPerColumn, col * itemsPerColumn + itemsPerColumn)
+												.map((itm) => <li>{itm.name}</li>)}
+										</ul>
+									</td>)
+							}
 						</tr>
 					</tbody>
 				</table>
